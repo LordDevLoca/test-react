@@ -1,0 +1,8 @@
+@import "./asset/scss/index.scss";
+body {
+  max-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #111;
+  font-family: sans-serif;
+}

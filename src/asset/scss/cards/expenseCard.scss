@@ -1,0 +1,11 @@
+.expenseCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 110px;
+  max-width: 100%;
+  border-radius: 20px;
+  background-color: #999;
+  border: 1px solid red;
+  margin-bottom: 50px;
+}
