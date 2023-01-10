@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 
 function ListExpenseItem(props) {
   return (
-    <div>
+    <div className="px-2">
       <ExpenseItem
         title={props.expenses[0].title}
         amount={props.expenses[0].amount}

@@ -21,14 +21,9 @@ function App() {
   ];
 
   return (
-    <div className="App text-white">
+    <div className="App text-white container-card">
       <div className="container">
-        <h1 style={{ textAlign: "center" }}>TITOLO</h1>
-        <div className="row">
-          <div>
-            <ListExpenseItem expenses={expenses} />
-          </div>
-        </div>
+        <ListExpenseItem expenses={expenses} />
       </div>
     </div>
   );

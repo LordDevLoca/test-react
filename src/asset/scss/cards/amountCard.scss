@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  height: 80px;
-  min-width: 8%;
-  max-width: 8%;
-  border-radius: 20px;
-  color: #000;
-  background-color: #fff;
-  border: 1px solid red;
+  padding: 14px 0px;
+  min-width: 100px;
+  max-width: 100px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(55, 0, 128);
+  border: 1px solid #fff;
   font-weight: bold;
-  font-size: var(--principal-font-size);
+  font-size: 22px;
 }

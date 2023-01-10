@@ -1,5 +1,10 @@
-.container {
-  max-height: 1080px;
-  max-width: 80%;
-  margin: 0 auto;
+.container-card {
+  height: 800px;
+  width: 1200px;
+  background-color: #313131;
+  margin: 2% auto;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

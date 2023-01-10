@@ -1,9 +1,19 @@
 function getDate(props) {
-  const dateItaly = props.data.toLocaleString("it-IT");
+  const year = props.data.toLocaleString("it-IT", {
+    year: "numeric",
+  });
+  const month = props.data.toLocaleString("it-IT", {
+    month: "long",
+  });
+  const day = props.data.toLocaleString("it-IT", {
+    day: "2-digit",
+  });
 
   return (
-    <div>
-      <div>{dateItaly}</div>
+    <div className="d-flex">
+      <div style={{ textTransform: "capitalize" }}>{month}</div>
+      <div style={{ fontWeight: "300", fontSize: "14px" }}>{year}</div>
+      <div style={{ fontWeight: "600", fontSize: "34px" }}>{day}</div>
     </div>
   );
 }
